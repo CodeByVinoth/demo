@@ -105,7 +105,7 @@ def get_base64(image_path):
 def setup_page():
     st.set_page_config(page_title="Leukemia Detection", layout="wide", page_icon="🩸")
     
-    background_image = "C://Users//vinoth//Desktop//Main project//static//images//background.webp"  # Make sure the file exists
+    background_image = "C://Users//vinoth//Desktop//Main project//main-project//images//background.webp"  # Make sure the file exists
     if not os.path.exists(background_image):
         st.error("Background image not found!")
         return
